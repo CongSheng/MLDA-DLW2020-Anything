@@ -1,4 +1,7 @@
 datasets/
 .ipynb_checkpoints/
-data.txt
 __pycache__/
+data.txt
+*.tsv
+*.csv
+*.bin
