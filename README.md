@@ -23,7 +23,7 @@ A copy of each dataset is also included in this repo, zipped inside `datasets.zi
 
 ## Explanation
 
-[Clean data.ipynb](Clean data.ipynb) imports the data and does common data cleaning techniques, such as removing stopwords, strange characters. It writes `data.txt` and `jd.csv` to disc for training word embeddings with FastText later.
+[Clean data.ipynb](Clean%20data.ipynb) imports the data and does common data cleaning techniques, such as removing stopwords, strange characters. It writes `data.txt` and `jd.csv` to disc for training word embeddings with FastText later.
 
 With FastText, train word embeddings on `data.txt` (no label, unsupervised) and on `jd.csv` (with labels, supervised).
 
