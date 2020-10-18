@@ -6,6 +6,8 @@ Team members:
 - Thien Tran ([gau-nernst](https://github.com/gau-nernst))
 - Leow Cong Sheng ([CongSheng](https://github.com/CongSheng))
 
+See [Team_Anything_Proposal.pdf](Team_Anything_Proposal.pdf) for an executive summary. See [Team_Anything_Pitch_deck.pdf](Team_Anything_Pitch_deck.pdf) for our pitch deck.
+
 ## Setup
 
 The key library used is [FastText](https://fasttext.cc/). There are also other common libraries such as `numpy`, `pandas` and `matplotlib`.
@@ -47,3 +49,8 @@ Our results show that there is no interesting insights from the model trained wi
 [fasttext.ipynb](fasttext.ipynb) demonstrates two simple ways to use the word embeddings
 1. Use `model.get_nearest_neighbors()` to get similar skills and job titles to a given skill or job
 2. Use `model.get_sentence_vector()` to generate vector representation of job descriptions. The vectors show that different job titles belong to distinct clusters, implying the potential to map skillsets with job requirements.
+
+
+![suggested skils for 'python'](python_word.png)
+
+![clusters formed by job descriptions, categorized by job titles](jobs.png)
